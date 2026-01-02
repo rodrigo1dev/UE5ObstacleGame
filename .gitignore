@@ -1,0 +1,70 @@
+﻿# .gitignore for Unreal Engine projects
+# Generated to ignore build artifacts, editor and OS files
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Saved/*
+!Saved/Config/**
+
+# Project files that shouldn't be versioned
+*.log
+*.vsconfig
+*.opensdf
+*.sdf
+*.ipch/
+*.pdb
+*.obj
+*.exe
+*.dll
+*.ilk
+*.lib
+*.exp
+*.app
+*.dSYM/
+
+# Mac/Windows metadata
+.DS_Store
+Thumbs.db
+
+# Unreal files
+*.xcworkspace
+*.xcodeproj
+*.xcuserdata
+*.xcuserdata/
+
+# UProject user files
+*.uproject.user
+
+# Ignore generated Visual Studio files
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore temporary and cache files
+*.pyc
+*.class
+
+# Ignore OneDrive/OS sync artifacts
+.~*~
+
+# Keep .gitignore.txt (if present) out of repo
+.gitignore.txt
+
+# Keep source and content under version control
+# (do not ignore Source/ or Content/ unless you intend to)
+
+# End of .gitignore
+
