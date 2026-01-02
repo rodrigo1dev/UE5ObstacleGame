@@ -16,6 +16,7 @@ Binaries/
 Build/
 DerivedDataCache/
 Intermediate/
+Content/*
 Saved/
 Saved/*
 !Saved/Config/**
